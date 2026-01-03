@@ -328,5 +328,30 @@ function tabuada(valor){ //Função que faz todo o processamento da tabuada.
 
 tabuada();
 ```
+18. Crie uma lista vazia, com o nome listaGenerica.
+```js
+const listaGenerica = [];
+```
+19. Crie uma lista de linguagens de programação chamada linguagensDeProgramacao com os seguintes elementos: 'JavaScript','C','C++', 'Kotlin' e 'Python' e adicione à lista os seguintes elementos: 'Java', 'Ruby' e 'GoLang'.
+```js
+const linguagensDeProgramacao = ['Javascript','C','C++','Kotlin','Python'];
+linguagensDeProgramacao.push('Java','Ruby','GoLang');
+```
+20. Crie uma lista com 3 nomes e exiba no console apenas o primeiro elemento.
+```js
+const alimentos = ['banana','maçã','pera'];
+console.log(alimentos[0]);
+```
+21. Crie uma lista com 3 nomes e exiba no console apenas o segundo elemento.
+```js
+const ferramentas = ['alicate','martelo','prego'];
+console.log(ferramentas[1]);
+```
+22. Crie uma lista com 3 nomes e exiba no console apenas o último elemento.
+```js
+const religioes = ['cristianismo','islamismo','budismo'];
+console.log(religioes[2]);
+```
+
 
 
