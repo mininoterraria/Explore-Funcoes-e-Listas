@@ -76,7 +76,7 @@ function dobrarValor(numero){
 console.log(dobrarValor(5));
 ```
 09. Criar uma função que recebe três números como parâmetros e retorna a média deles.
-```
+```js
 function mediaValores(numero1,numero2,numero3){
     const media = (numero1 + numero2 + numero3) / 3;
     return media;
