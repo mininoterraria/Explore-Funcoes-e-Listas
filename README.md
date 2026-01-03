@@ -52,3 +52,60 @@ function botaoSomar(){
 
 }
 ```
+06. Criar uma função que exibe "Olá, mundo!" no console.
+```js
+function saudacao(){
+    console.log("Olá, mundo!");
+}
+
+saudacao();
+```
+07. Criar uma função que recebe um nome como parâmetro e exibe "Olá, [nome]!" no console.
+```js
+function saudacao(nome){
+    console.log(`Olá, ${nome}!`);
+}
+
+saudacao('Diego');
+```
+08. Criar uma função que recebe um número como parâmetro e retorna o dobro desse número.
+```js
+function dobrarValor(numero){
+    return numero * 2;
+}
+console.log(dobrarValor(5));
+```
+09. Criar uma função que recebe três números como parâmetros e retorna a média deles.
+```
+function mediaValores(numero1,numero2,numero3){
+    const media = (numero1 + numero2 + numero3) / 3;
+    return media;
+}
+console.log(`A média dos valores 5,4,3 é: ${mediaValores(5,4,3)}`);
+```
+10. Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
+```js
+function maiorValor(numero1,numero2){
+    if(numero1 > numero2){
+        return `O maior valor é: ${numero1}`;
+    }else if(numero1 < numero2){
+        return `O maior valor é: ${numero2}`;
+    }else{
+        return `Os valores são iguais!`;
+    }
+    
+}
+console.log(maiorValor(3,7));
+```
+11. Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo.
+```js
+function multiplicarValor(numero){
+    return numero * numero;
+}
+
+const numero = 7;
+
+console.log(`O resultado da multiplicação de ${numero} é ${multiplicarValor(numero)}`);
+```
+
+
