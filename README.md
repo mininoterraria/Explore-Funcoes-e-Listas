@@ -107,7 +107,7 @@ const numero = 7;
 
 console.log(`O resultado da multiplicação de ${numero} é ${multiplicarValor(numero)}`);
 ```
-11. Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, em metros, e peso, em quilogramas, que serão recebidos como parâmetro.
+12. Crie uma função que calcule o índice de massa corporal (IMC) de uma pessoa, a partir de sua altura, em metros, e peso, em quilogramas, que serão recebidos como parâmetro.
 ```js
 function validarCampo(parametro){ //Função para validar o campo de altura/peso.
     const regex = /^[0-9]+(\.[0-9]+)?$/; 
@@ -145,7 +145,7 @@ function calculoIMC(altura,peso){ //Cálculo IMC
 const resultadoCalculo = calculoIMC();
 resultadoCalculo !== undefined ? console.log(`O cálculo IMC é: ${resultadoCalculo.toFixed(2)}`) : '';
 ```
-12. Crie uma função que calcule o valor do fatorial de um número passado como parâmetro.
+13. Crie uma função que calcule o valor do fatorial de um número passado como parâmetro.
 ```js
 function validarCampo(valorInserido){ //Função para validar campos inputados pelo usuário.
     const regex = /^[0-9]+$/;
@@ -180,7 +180,7 @@ function calcularFatorial(numero){
 
 calcularFatorial();
 ```
-13. Crie uma função que converte um valor em dólar, passado como parâmetro, e retorna o valor equivalente em reais. Para isso, considere a cotação do dólar igual a R$4,80.
+14. Crie uma função que converte um valor em dólar, passado como parâmetro, e retorna o valor equivalente em reais. Para isso, considere a cotação do dólar igual a R$4,80.
 ```js
 function validarCampo(valorInput){ //Função para validar campos inputados pelo usuário.
     const regex = /^-?\d+([.,]\d+)?$/;
@@ -207,7 +207,7 @@ function converterMoeda(valor){ //Função para rodar o algoritmo de conversão.
 
 converterMoeda();
 ```
-14. Crie uma função que mostre na tela a área e o perímetro de uma sala retangular, utilizando altura e largura que serão dadas como parâmetro.
+15. Crie uma função que mostre na tela a área e o perímetro de uma sala retangular, utilizando altura e largura que serão dadas como parâmetro.
 ```js
 function validarCampo(campoInputado){ //Função para validar o input inserido pelo usuário.
     const regex = /^\d+([.,]\d+)?$/;
@@ -252,7 +252,7 @@ function calcularAreaPerimetro(altura, base){ //Função que fará todo o proces
 
 calcularAreaPerimetro(); //Chamada da função principal.
 ```
-15. Crie uma função que mostre na tela a área e o perímetro de uma sala circular, utilizando seu raio que será fornecido como parâmetro. Considere Pi = 3,14.
+16. Crie uma função que mostre na tela a área e o perímetro de uma sala circular, utilizando seu raio que será fornecido como parâmetro. Considere Pi = 3,14.
 ```js
 function validarCampo(campoInputado){ //Função para validar o input inserido pelo usuário.
     const regex = /^\d+([.,]\d+)?$/;
@@ -290,7 +290,7 @@ function calcularAreaPerimetro(raio){ //Função que fará todo o processamento 
 
 calcularAreaPerimetro(); //Chamada da função principal.
 ```
-16. Crie uma função que mostre na tela a tabuada de um número dado como parâmetro.
+17. Crie uma função que mostre na tela a tabuada de um número dado como parâmetro.
 ```js
 function validarCampo(campoInputado){ //Função para validar o input inserido pelo usuário.
     const regex = /^\d+([.,]\d+)?$/;
